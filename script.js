@@ -201,6 +201,8 @@ const displayController = (() => {
 
         header.style.display = 'flex';
 
+        document.querySelector('.inst').textContent = 'Player 1 Turn. Add a X.'
+
         gameReplay();
     };
 

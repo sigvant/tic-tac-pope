@@ -188,6 +188,8 @@ const displayController = (() => {
             box.style.backgroundColor = 'white';
         });
 
+        document.querySelector('.inst').textContent = 'Player 1 Turn. Add a X.'
+
         replayBtn.style.display = 'none';
 
         winCtn.textContent = '';
@@ -201,7 +203,7 @@ const displayController = (() => {
 
         header.style.display = 'flex';
 
-        document.querySelector('.inst').textContent = 'Player 1 Turn. Add a X.'
+        
 
         gameReplay();
     };
